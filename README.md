@@ -24,13 +24,15 @@ That's it! You're ready to start developing.
 ```
 swarmcloud
 ├── src/
-│   ├── aiswarm/           # Core CLI code
-│   │   ├── sdk/           # Agent development SDK
-│   │   ├── commands/      # CLI commands
-│   │   └── core/          # Core functionality
+|   ├── main.py          # CLI entry point
+│   │── sdk/           # Agent development SDK
+│   │── commands/      # CLI commands
+│   │── core/         # Core functionality
+|   ├── utils/
+|   ├── templates/
 │   └── tests/             # Test suite
-├── agents/                # Agent implementations
-│   └── examples/          # Example agents
+├── examples/              # Examples
+├── docs/                  # Documentation
 ├── setup.py              # Development setup script
 └── pyproject.toml        # Project dependencies
 ```
